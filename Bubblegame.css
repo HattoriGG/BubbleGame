@@ -1,0 +1,84 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Gilroy-Regular", sans-serif;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(163, 233, 168);
+}
+
+.box1 {
+  overflow: hidden;
+  width: 70%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.boxtop {
+  padding: 20px;
+  color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 15%;
+  background-color: rgb(52, 110, 56);
+  padding-inline: 30%;
+}
+.element {
+  gap: 10%;
+  display: flex;
+  align-items: center;
+}
+.box {
+  display: flex;
+  color: rgb(40, 89, 43);
+  font-weight: 700;
+  padding: 10px;
+  padding-inline: 18px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.boxmain {
+  padding: 20px;
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  overflow: hidden;
+}
+.bubble {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(52, 110, 56);
+  color: #fff;
+  font-weight: 600;
+}
+.bubble:hover {
+  cursor: pointer;
+  background-color: rgb(24, 71, 27);
+}
+#touchbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
